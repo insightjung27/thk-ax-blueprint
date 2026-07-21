@@ -107,7 +107,7 @@ h2.sec{font-size:clamp(1.5rem,4.3vw,2.15rem);font-weight:800;letter-spacing:-.02
 
 /* GATES */
 .cost{background:var(--soft)}
-.gchips{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.gchips{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
 .gchip{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px}
 .gchip strong{display:block;font-size:1.1rem;font-weight:800;color:var(--ink);margin-bottom:5px}
 .gchip span{font-size:.98rem;color:var(--body)}
@@ -258,7 +258,7 @@ footer{padding:38px 0 54px;text-align:center;color:#8b939f;font-size:.92rem;line
   <span class="eyebrow">비용 통제</span>
   <h2 class="sec">유지비용은 구조로 잡습니다</h2>
   <p class="sub">도입 첫날부터 월 예산 상한을 걸고, 과제마다 순효익 게이트로 검증합니다. 효과가 운영비를 못 넘으면 제가 먼저 중단합니다.</p>
-  <div class="gchips"><div class="gchip"><strong>월 예산 상한·자동 차단</strong><span>도입 첫날부터 부서·용도별 월 AI 비용에 상한을 걸고, 넘으면 자동으로 멈춥니다. 얼마 쓰는지 한 화면으로 봅니다.</span></div><div class="gchip"><strong>순효익 게이트</strong><span>아낀 시간·비용이 AI 운영비보다 클 때만 유지하고, 못 넘으면 제가 먼저 중단합니다.</span></div><div class="gchip"><strong>값싸게 굴리는 구조</strong><span>쉬운 일은 저가 모델과 캐싱으로, 계산·검증은 파이썬 규칙으로 토큰 0. 비싼 모델은 어려운 판단에만 씁니다.</span></div></div>
+  <div class="gchips"><div class="gchip"><strong>순효익</strong><span>과제마다 아낀 시간·비용이 AI 운영비보다 큰지 따져, 클 때만 유지하고 못 넘으면 제가 먼저 중단합니다. 부서·용도별 월 예산 상한을 걸고 넘으면 자동 차단합니다.</span></div><div class="gchip"><strong>로컬 LLM·저가 모델 등</strong><span>가능한 일은 사내 로컬 LLM과 저가 모델로 돌리고, 반복 질의는 캐싱, 계산·검증은 파이썬 규칙으로 토큰 비용을 0으로 둡니다. 비싼 모델은 어려운 판단에만 씁니다.</span></div></div>
 </div></section>
 
 <section><div class="wrap">
