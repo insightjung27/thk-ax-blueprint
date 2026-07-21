@@ -4,15 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>THK컴퍼니 전사 AX 전환 실행 보고</title>
-<meta name="description" content="진행 중인 DX를 AX로 전환해 IPO 기업가치를 높이는 실행 계획 · 대표님(신종호) 제출용">
+<meta name="description" content="대표님이 추진하신 DX가 AX에 적합한지 진단부터 시작해, 약 2개년에 걸쳐 IPO 기업가치로 연결하는 실행 계획 · 대표님(신종호) 제출용">
 <meta property="og:type" content="website">
 <meta property="og:title" content="THK컴퍼니 전사 AX 전환 실행 보고">
-<meta property="og:description" content="진행 중인 DX를 AX로 전환해 IPO 기업가치를 높이는 실행 계획 · 대표님(신종호) 제출용">
+<meta property="og:description" content="대표님이 추진하신 DX가 AX에 적합한지 진단부터 시작해, 약 2개년에 걸쳐 IPO 기업가치로 연결하는 실행 계획 · 대표님(신종호) 제출용">
 <meta property="og:url" content="https://thk-ax-blueprint.vercel.app">
 <meta property="og:locale" content="ko_KR">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="THK컴퍼니 전사 AX 전환 실행 보고">
-<meta name="twitter:description" content="진행 중인 DX를 AX로 전환해 IPO 기업가치를 높이는 실행 계획 · 대표님(신종호) 제출용">
+<meta name="twitter:description" content="대표님이 추진하신 DX가 AX에 적합한지 진단부터 시작해, 약 2개년에 걸쳐 IPO 기업가치로 연결하는 실행 계획 · 대표님(신종호) 제출용">
 <meta name="theme-color" content="#191d25">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" rel="stylesheet">
@@ -30,7 +30,7 @@ section{padding:66px 0}
 p{color:var(--body)}
 .eyebrow{display:inline-block;font-size:.85rem;font-weight:800;letter-spacing:.13em;color:var(--red);margin-bottom:16px}
 h2.sec{font-size:clamp(1.5rem,4.3vw,2.15rem);font-weight:800;letter-spacing:-.02em;color:var(--ink);line-height:1.3;margin-bottom:12px}
-.sub{color:var(--mut);font-size:1.02rem;margin-bottom:34px;max-width:680px}
+.sub{color:var(--mut);font-size:1.02rem;margin-bottom:34px;max-width:700px}
 
 /* HERO */
 .hero{background:linear-gradient(160deg,#232a36 0%,var(--char) 62%);color:#fff;padding:70px 0 62px}
@@ -50,6 +50,16 @@ h2.sec{font-size:clamp(1.5rem,4.3vw,2.15rem);font-weight:800;letter-spacing:-.02
 .anchor .body p{color:var(--body);margin-bottom:15px;font-size:1.08rem}
 .anchor .body p:last-child{margin-bottom:0}
 
+/* APPROACH */
+.ap-p1{display:flex;gap:18px;align-items:flex-start;background:#fff;border:1px solid var(--line);
+  border-left:7px solid var(--red);border-radius:16px;padding:26px 28px;margin-bottom:18px}
+.ap-badge{flex:0 0 auto;background:var(--red);color:#fff;font-weight:800;font-size:.92rem;padding:8px 15px;border-radius:999px;margin-top:2px}
+.ap-p1 p{font-size:1.12rem;color:var(--ink);font-weight:600;line-height:1.6}
+.ap-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.ap-card{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:22px 24px}
+.ap-card h4{font-size:1.02rem;font-weight:800;color:var(--red2);margin-bottom:8px}
+.ap-card p{font-size:1.02rem;color:var(--body)}
+
 /* PRINCIPLES */
 .pgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
 .pcard{display:flex;gap:18px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px 24px}
@@ -61,12 +71,14 @@ h2.sec{font-size:clamp(1.5rem,4.3vw,2.15rem);font-weight:800;letter-spacing:-.02
 /* ROADMAP */
 .road{background:var(--char);color:#fff}
 .road .eyebrow{color:#ff8a8d} .road h2.sec{color:#fff} .road .sub{color:#c3cad4}
-.nodebar{display:flex;align-items:flex-start;justify-content:space-between;margin:8px 0 44px;gap:2px}
-.node{display:flex;flex-direction:column;align-items:center;text-align:center;flex:0 0 auto;width:19%}
+.nodebar{position:relative;display:flex;justify-content:space-between;margin:14px 0 46px}
+.nodebar:before{content:"";position:absolute;top:22px;left:9%;right:9%;height:3px;
+  background:linear-gradient(90deg,var(--red),#59616f);border-radius:2px;z-index:0}
+.node{position:relative;z-index:1;flex:1 1 0;display:flex;flex-direction:column;align-items:center;text-align:center;gap:11px}
 .ncirc{width:44px;height:44px;border-radius:50%;background:var(--red);color:#fff;font-weight:800;font-size:1.15rem;
-  display:flex;align-items:center;justify-content:center;border:3px solid rgba(255,255,255,.25)}
-.nlab{margin-top:11px;font-size:.92rem;font-weight:700;color:#e7ebf1}
-.nline{flex:1 1 auto;height:3px;background:linear-gradient(90deg,var(--red),#59616f);margin-top:21px;border-radius:2px}
+  display:flex;align-items:center;justify-content:center;border:3px solid var(--char)}
+.nlab{font-size:.92rem;font-weight:800;color:#fff;line-height:1.35}
+.nsub{font-weight:600;color:#aab2be;font-size:.82rem}
 .stage{display:flex;gap:20px;position:relative;padding-bottom:26px}
 .stage:not(:last-child) .srail:after{content:"";position:absolute;top:46px;bottom:-4px;left:50%;transform:translateX(-50%);width:3px;background:rgba(255,255,255,.14)}
 .srail{flex:0 0 46px;position:relative}
@@ -82,17 +94,16 @@ h2.sec{font-size:clamp(1.5rem,4.3vw,2.15rem);font-weight:800;letter-spacing:-.02
 .gate{margin-top:16px;font-size:.96rem;color:#ffc4c6;border-top:1px dashed rgba(255,255,255,.16);padding-top:12px}
 .gate b{color:#ff8a8d;font-weight:800;margin-right:4px}
 
-/* LIGHTHOUSES */
-.lgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+/* PRIORITIES */
+.lgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
 .lcard{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px 24px;
   box-shadow:0 12px 34px -24px rgba(20,24,35,.5)}
 .ltop{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
 .lidx{font-size:.9rem;font-weight:800;color:#fff;background:var(--red);padding:5px 14px;border-radius:999px}
-.lper{font-size:.92rem;color:var(--mut);font-weight:700}
 .lcard h3{font-size:1.18rem;font-weight:800;color:var(--ink);letter-spacing:-.01em;margin-bottom:13px;line-height:1.4}
 .lwhy{font-size:1rem;color:var(--body);margin-bottom:14px}
 .lrow{display:flex;gap:12px;font-size:1rem;padding:11px 0;border-top:1px solid var(--line);line-height:1.55}
-.lk{flex:0 0 62px;color:var(--red2);font-weight:800} .lv{color:var(--body)}
+.lk{flex:0 0 52px;color:var(--red2);font-weight:800} .lv{color:var(--body)}
 
 /* GATES */
 .cost{background:var(--soft)}
@@ -124,10 +135,11 @@ footer{padding:38px 0 54px;text-align:center;color:#8b939f;font-size:.92rem;line
 @media (max-width:840px){
   html{font-size:17px}
   section{padding:48px 0}
-  .pgrid,.lgrid,.gchips,.asks{grid-template-columns:1fr}
-  .nlab{font-size:.8rem} .ncirc{width:38px;height:38px;font-size:1rem}
-  .anchor .box{padding:28px 22px}
+  .pgrid,.gchips,.asks,.ap-row{grid-template-columns:1fr}
+  .anchor .box,.ap-p1{padding:26px 22px}
   .klabel{flex-basis:48%}
+  .nodebar{flex-wrap:wrap;gap:20px 0} .node{flex:0 0 33%} .nodebar:before{display:none}
+  .nsub{display:none}
 }
 @media print{
   .hero,.road{-webkit-print-color-adjust:exact;print-color-adjust:exact}
@@ -140,7 +152,7 @@ footer{padding:38px 0 54px;text-align:center;color:#8b939f;font-size:.92rem;line
 <header class="hero"><div class="wrap">
   <span class="tag"><span class="tk">신뢰 근거</span><b>이로움 전체 플랫폼 기획 총괄 리더 출신</b></span>
   <h1>THK컴퍼니 전사 AX 전환 실행 보고</h1>
-  <p class="lead">대표님께서 추진 중인 DX를, 제가 총괄 기획한 이로움 플랫폼 위에서 AX로 전환해 IPO 기업가치로 연결하겠습니다. 거대한 자체 AI가 아니라 회사 규모에 맞는 현실형이고, 유지비용은 월 상한과 순효익 게이트로 제가 단일 책임집니다. 90일 안에 비용 대비 효과가 숫자로 증명된 등대 성과 1건을 만들겠습니다.</p>
+  <p class="lead">대표님께서 추진하신 DX가 AX 전환에 바로 쓸 수 있는 상태인지 진단하는 것부터 시작하겠습니다. 그 위에 제가 총괄 기획한 이로움 플랫폼에 AI를 얹어 IPO 기업가치로 연결합니다. 거대한 자체 AI가 아니라 회사 규모에 맞는 현실형이며, 유지비용은 월 예산 상한과 순효익 게이트로 제가 단일 책임집니다. 비용 대비 효과가 숫자로 증명된 성과부터 조기에 만들겠습니다.</p>
   <div class="redline"></div>
 </div></header>
 
@@ -153,82 +165,93 @@ footer{padding:38px 0 54px;text-align:center;color:#8b939f;font-size:.92rem;line
 </div></section>
 
 <section><div class="wrap">
-  <span class="eyebrow">추진 4원칙</span>
-  <h2 class="sec">제가 지키는 네 가지 원칙</h2>
+  <span class="eyebrow">접근 방법</span>
+  <h2 class="sec">무엇부터, 어떻게 시작하는가</h2>
+  <p class="sub">순서를 지킵니다. 새로 크게 짓는 것이 아니라, 대표님이 이미 하신 것 위에서 시작합니다.</p>
+  <div class="ap-p1"><span class="ap-badge">1순위</span><p>모든 것의 1순위는 대표님께서 추진하신 DX의 결과물이 AX 전환에 적합한지부터 진단하는 것입니다. 데이터·시스템·업무의 DX 산출이 그 위에 AI를 바로 얹을 수 있는 상태인지 먼저 점검한 뒤에야 다음으로 넘어가겠습니다.</p></div>
+  <div class="ap-row">
+    <div class="ap-card"><h4>진행 방식</h4><p>하향식 고정 지시가 아닙니다. 전사 공통 과제와 함께 IT조직·복지용구사업부·경영지원 각 조직이 원하고 필요로 하는 부분을 먼저 발굴하고, 이를 다시 검토해 우선순위를 정한 뒤 진행하겠습니다.</p></div>
+    <div class="ap-card"><h4>기준안 제안</h4><p>이 문서에 담은 공통·조직별 적용 목록은 확정안이 아니라 기준안입니다. 진단과 발굴에서 더 나은 안이 나오면 그것을 반영하고, 더 나은 안이 없으면 이 기준안대로 진행하겠습니다.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <span class="eyebrow">추진 원칙</span>
+  <h2 class="sec">제가 지키는 원칙</h2>
   <p class="sub">대표님께서 강조하신 것을 그대로 실행 원칙으로 옮겼습니다.</p>
   <div class="pgrid"><div class="pcard"><span class="pnum">1</span><div><h3>현실형 AX</h3><p>거대한 자체 AI·대형 인프라를 세우지 않습니다. 회사 규모에 맞게 실제 업무를 줄여 적은 인원으로 더 많은 일을 하게 만듭니다.</p></div></div><div class="pcard"><span class="pnum">2</span><div><h3>데이터화 먼저, AI는 그 위에</h3><p>데이터화가 안 된 업무는 AI로 돌리지 않습니다. 먼저 출처·버전 있는 정본으로 표준화·전산화한 뒤에만 AI를 얹습니다.</p></div></div><div class="pcard"><span class="pnum">3</span><div><h3>공통 80퍼센트 시중도구·특화 20~30퍼센트만 자체투자</h3><p>전 부서 반복 업무 70~80퍼센트는 검증된 시중 도구로 싸게 걷어냅니다. 회사 규칙·B2B 매뉴얼·공단청구 같은 특화 20~30퍼센트에만 자체 투자를 집중합니다.</p></div></div><div class="pcard"><span class="pnum">4</span><div><h3>유지비용 상한·순효익 게이트</h3><p>도입 첫날부터 부서·용도별 월 예산 상한을 걸고 초과 시 자동 차단합니다. 아낀 값이 운영비보다 클 때만 유지하고, 못 넘으면 제가 먼저 중단합니다.</p></div></div></div>
 </div></section>
 
 <section class="road"><div class="wrap">
-  <span class="eyebrow">전환 로드맵</span>
-  <h2 class="sec">데이터화(DX) 먼저, 그 위에 AI(AX) — 단계마다 숫자로 검증</h2>
-  <p class="sub">각 단계 끝에서 순효익·KPI를 통과해야 다음 단계 예산이 열립니다. 대표님은 결과를 숫자로 확인하고 진행 여부만 결정하시면 됩니다.</p>
-  <div class="nodebar"><div class="node"><span class="ncirc">0</span><span class="nlab">진단·기반</span></div><span class="nline"></span><div class="node"><span class="ncirc">1</span><span class="nlab">전사 공통</span></div><span class="nline"></span><div class="node"><span class="ncirc">2</span><span class="nlab">부서별</span></div><span class="nline"></span><div class="node"><span class="ncirc">3</span><span class="nlab">회사 특화</span></div><span class="nline"></span><div class="node"><span class="ncirc">4</span><span class="nlab">확산·정착</span></div></div>
+  <span class="eyebrow">약 2개년 전환 로드맵</span>
+  <h2 class="sec">데이터화(DX) 먼저, 그 위에 AI(AX) — 차수마다 숫자로 검증</h2>
+  <p class="sub">누가 봐도 합리적인 분기점으로 나눴습니다. 각 차수는 앞 차수의 숫자 검증을 통과해야 다음으로 넘어갑니다. 대표님은 결과를 숫자로 확인하고 진행 여부만 결정하시면 됩니다.</p>
+  <div class="nodebar"><div class="node"><span class="ncirc">1</span><span class="nlab">1차<br><span class="nsub">기반 — D</span></span></div><div class="node"><span class="ncirc">2</span><span class="nlab">2차<br><span class="nsub">전사 공통 </span></span></div><div class="node"><span class="ncirc">3</span><span class="nlab">3차<br><span class="nsub">조직별 전환</span></span></div><div class="node"><span class="ncirc">4</span><span class="nlab">4차<br><span class="nsub">회사 특화 </span></span></div><div class="node"><span class="ncirc">5</span><span class="nlab">5차<br><span class="nsub">확산·정착 </span></span></div></div>
   <div class="stages"><div class="stage">
-      <div class="srail"><span class="snum">0</span></div>
-      <div class="scard">
-        <div class="sphase">0단계 · 진단·기반</div>
-        <h3>진단·기반 정리</h3>
-        <p class="sgoal">AI를 붙이기 전에 데이터·계정·비용 구조부터 제가 직접 정리하고 진단합니다.</p>
-        <ul><li>시스템·계정·데이터 흩어짐 현황 직접 진단</li><li>개인 AI 도구를 회사 공식 계정으로 정리·개인정보 사용 규정 선수립</li><li>부서별 데이터(급여청구·대여재고·매출) 데이터화 착수</li><li>AI 사용량·비용 관제판+월 예산 상한+순효익 게이트 세팅</li></ul><div class="gate"><b>게이트</b> 업무별 데이터화 3분류 진단표 완료</div>
-      </div>
-    </div><div class="stage">
       <div class="srail"><span class="snum">1</span></div>
       <div class="scard">
-        <div class="sphase">1단계 · 전사 공통</div>
-        <h3>전사 공통 등대</h3>
-        <p class="sgoal">전 부서가 매일 쓰는 회의녹취 정리·규정검색부터 붙여 전사가 AI 효과를 눈으로 확인하게 합니다.</p>
-        <ul><li>회의 자동 녹취·정리 1개 부서 파일럿</li><li>규정·매뉴얼을 출처와 함께 답하는 사내검색 파일럿</li><li>사용량·절감시간 실측 후 비용 대비 효과 숫자 보고</li></ul><div class="gate"><b>게이트</b> 효과 확인된 항목만 유지, 효과 없는 시도는 즉시 정리</div>
+        <div class="sphase">1차</div>
+        <h3>기반 — DX 적합성 진단과 데이터·비용 관제</h3>
+        <p class="sgoal">대표님 DX 산출물이 그 위에 AI를 바로 얹을 수 있는 상태인지부터 진단하고, 데이터·계정·비용 기반을 정리합니다.</p>
+        <ul><li>대표님 DX 산출물의 AX 적합성 진단 (1순위)</li><li>업무별 데이터화 3분류 진단표</li><li>개인 AI 도구를 회사 공식 계정으로 정리·개인정보 규정 수립</li><li>AI 사용량·비용 관제판 + 월 예산 상한 + 순효익 게이트</li></ul><div class="gate"><b>게이트</b> DX 적합성·데이터화 수준 진단 완료</div>
       </div>
     </div><div class="stage">
       <div class="srail"><span class="snum">2</span></div>
       <div class="scard">
-        <div class="sphase">2단계 · 부서별</div>
-        <h3>부서별 적용 (IT → 복지용구사업부 → 경영지원)</h3>
-        <p class="sgoal">핵심 매출·리스크가 걸린 부서 순서로 AI를 붙여 나갑니다.</p>
-        <ul><li>IT조직: 코딩 보조+전사 AI 연결·비용 관제탑으로 승격</li><li>복지용구사업부: 공단청구 사전점검·상담·자격/한도 확인</li><li>경영지원: 전표·정산 자동대사·인사·문서 반복 부담 감소</li></ul><div class="gate"><b>게이트</b> 개인정보·청구 최종확정은 반드시 사람이 승인</div>
+        <div class="sphase">2차</div>
+        <h3>전사 공통 AX화 — 전 부서가 체감하는 첫 성과</h3>
+        <p class="sgoal">전 직원이 매일 쓰는 회의녹취 정리·규정검색부터 붙여, 전사가 AI 효과를 눈으로 확인하게 합니다.</p>
+        <ul><li>회의 자동 녹취·정리 파일럿</li><li>규정·매뉴얼을 출처와 함께 답하는 사내검색</li><li>사용량·절감시간 실측 후 비용 대비 효과 숫자 보고</li></ul><div class="gate"><b>게이트</b> 효과 확인된 항목만 유지, 없는 시도는 즉시 정리</div>
       </div>
     </div><div class="stage">
       <div class="srail"><span class="snum">3</span></div>
       <div class="scard">
-        <div class="sphase">3단계 · 회사 특화</div>
-        <h3>회사 특화 (우리 데이터 20~30퍼센트)</h3>
-        <p class="sgoal">이로움케어·이로움돌봄·이로움ON 데이터에만 AI를 얹어 경쟁사가 못 만드는 차별화를 만듭니다.</p>
-        <ul><li>B2B·B2C·이로움ON 데이터를 회사 정본으로 정리</li><li>정본 근거 상담봇·공단청구 무결성 점검·리드 매칭 자동화</li><li>특화 결과를 IPO 운영효율·수익성 근거로 연결</li></ul><div class="gate"><b>게이트</b> 특화 20~30퍼센트에만 자체투자 집중</div>
+        <div class="sphase">3차</div>
+        <h3>조직별 전환 — 발굴·재검토·우선순위 (기준안)</h3>
+        <p class="sgoal">IT조직·복지용구사업부·경영지원 각 조직이 원하는(필요한) 부분을 발굴하고, 함께 재검토해 우선순위를 정한 뒤 진행합니다.</p>
+        <ul><li>조직별 &#x27;원하는 것&#x27; 발굴·재검토·우선순위 (하향식 고정 아님)</li><li>복지용구사업부: 공단청구 사전점검 등 우선 과제</li><li>IT: 코딩 보조 + 전사 AI 관제탑 승격 / 경영지원: 전표·정산 자동대사</li></ul><div class="gate"><b>게이트</b> 개인정보·청구 최종확정은 사람 승인 · 더 나은 안 없으면 기준안대로</div>
       </div>
     </div><div class="stage">
       <div class="srail"><span class="snum">4</span></div>
       <div class="scard">
-        <div class="sphase">4단계 · 확산·정착</div>
-        <h3>확산·정착</h3>
-        <p class="sgoal">숫자로 증명된 것만 회사 전체로 확산하고 비용 상한 안에서 정착시킵니다.</p>
-        <ul><li>비용 대비 효과 증명된 항목만 전사 확대</li><li>불확실했던 시도는 종료하고 그 예산을 검증된 항목에 재배치</li><li>격주로 대표님께 &#x27;결정 요청&#x27; 형태 정례 보고</li></ul><div class="gate"><b>게이트</b> 월 예산 상한·순효익 게이트 상시 운영</div>
+        <div class="sphase">4차</div>
+        <h3>회사 특화 — 우리 데이터로 만드는 해자</h3>
+        <p class="sgoal">시중 도구로는 못 따라오는 이로움 데이터에만 AI를 얹어 경쟁사가 못 만드는 차별화를 만듭니다.</p>
+        <ul><li>이로움케어·이로움돌봄·이로움ON 데이터 정본화</li><li>정본 근거 상담봇·공단청구 무결성 점검·리드 매칭</li><li>특화 결과를 IPO 운영효율·수익성 근거로 연결</li></ul><div class="gate"><b>게이트</b> 특화 20~30퍼센트에만 자체투자 집중</div>
+      </div>
+    </div><div class="stage">
+      <div class="srail"><span class="snum">5</span></div>
+      <div class="scard">
+        <div class="sphase">5차</div>
+        <h3>확산·정착 — 검증된 것만, 경영성과로</h3>
+        <p class="sgoal">숫자로 증명된 것만 전사로 확산하고 비용 상한 안에서 정착시켜 경영성과·IPO 기업가치로 연결합니다.</p>
+        <ul><li>비용 대비 효과 증명된 항목만 전사 확대</li><li>불확실했던 시도는 종료하고 예산을 검증된 항목에 재배치</li><li>월 예산 상한·순효익 게이트 상시 운영</li></ul><div class="gate"><b>게이트</b> 앞 차수 숫자 검증 통과 시에만 다음 확산</div>
       </div>
     </div></div>
 </div></section>
 
 <section><div class="wrap">
-  <span class="eyebrow">등대 과제</span>
-  <h2 class="sec">가장 먼저 숫자로 증명할 3가지</h2>
-  <p class="sub">90일 안에 비용 대비 효과를 증명하는 우선 과제입니다. 후보를 늘어놓지 않고 이 3건에 인력과 예산을 집중합니다.</p>
+  <span class="eyebrow">우선 과제 (기준안)</span>
+  <h2 class="sec">먼저 숫자로 증명할 과제</h2>
+  <p class="sub">진단·발굴에서 더 나은 안이 나오면 반영하고, 없으면 이 기준안대로 우선 착수합니다. 후보를 늘어놓지 않고 여기에 인력과 예산을 집중합니다.</p>
   <div class="lgrid"><div class="lcard">
-      <div class="ltop"><span class="lidx">등대 1</span><span class="lper">착수 후 4~8주</span></div>
+      <div class="ltop"><span class="lidx">우선 과제 1</span></div>
       <h3>카카오톡·전화 수동 주문 AI 자동 접수·정형화</h3>
-      <p class="lwhy">인건비·입력 오류·처리 지연이 가장 큰 최대 병목입니다. 대부분 규칙 점검이라 AI 운영비가 월 수십만원대로 순효익이 크게 양수입니다.</p>
+      <p class="lwhy">인건비·입력 오류·처리 지연이 가장 큰 병목입니다. 대부분 규칙 점검이라 AI 운영비가 낮아 순효익이 크게 양수입니다.</p>
       <div class="lrow"><span class="lk">효과</span><span class="lv">전담 3~4명이 월 수천 건 수동 처리하던 주문을 구조화·자동검증합니다. 건당 처리시간 30~40퍼센트 절감 시 약 1~1.5명분(월 약 300~450만원) 재배치 여력이 생깁니다.</span></div>
-      <div class="lrow"><span class="lk">성공지표</span><span class="lv">주문 건당 처리시간 30퍼센트 이상 절감·입력 오류 30퍼센트 이상 감소</span></div>
+      <div class="lrow"><span class="lk">판정</span><span class="lv">주문 건당 처리시간 30퍼센트 이상 절감, 입력 오류 30퍼센트 이상 감소</span></div>
     </div><div class="lcard">
-      <div class="ltop"><span class="lidx">등대 2</span><span class="lper">착수~증명 2~3주</span></div>
+      <div class="ltop"><span class="lidx">우선 과제 2</span></div>
       <h3>회의 녹취 자동정리 + 규정 사내검색 파일럿</h3>
-      <p class="lwhy">대표님이 가장 보시는 비용 대비 효과를 가장 빠르게 증명합니다.</p>
+      <p class="lwhy">대표님이 가장 보시는 비용 대비 효과를 조기에 증명합니다.</p>
       <div class="lrow"><span class="lk">효과</span><span class="lv">개인정보 없는 공통업무라 리스크가 낮고 회의·문서 시간 절감이 즉시 눈에 보입니다. 낮은 초기비용으로 AX 체감을 만듭니다.</span></div>
-      <div class="lrow"><span class="lk">성공지표</span><span class="lv">회의당 정리시간 20분 이상 절감·규정검색 출처 포함 정답률 85퍼센트</span></div>
+      <div class="lrow"><span class="lk">판정</span><span class="lv">회의당 정리시간 20분 이상 절감, 규정검색 출처 포함 정답률 85퍼센트</span></div>
     </div><div class="lcard">
-      <div class="ltop"><span class="lidx">등대 3</span><span class="lper">착수 후 6~8주</span></div>
-      <h3>공단 급여청구 제출 전 자동 사전점검 (규칙엔진 우선)</h3>
+      <div class="ltop"><span class="lidx">우선 과제 3</span></div>
+      <h3>공단 급여청구 제출 전 자동 사전점검(규칙엔진 우선)</h3>
       <p class="lwhy">매출 손실과 인건비를 바로 줄이면서 비용 대비 효과가 가장 확실하게 나옵니다.</p>
       <div class="lrow"><span class="lk">효과</span><span class="lv">청구 반려 재작업과 환수 리스크를 제출 전에 걸러냅니다. 대부분 규칙 점검이라 AI 토큰 비용이 거의 들지 않습니다.</span></div>
-      <div class="lrow"><span class="lk">성공지표</span><span class="lv">청구 반려율 기준선 대비 20퍼센트 이상 감소·부당청구 환수 0 유지</span></div>
+      <div class="lrow"><span class="lk">판정</span><span class="lv">청구 반려율 기준선 대비 20퍼센트 이상 감소, 부당청구 환수 0 유지</span></div>
     </div></div>
 </div></section>
 
@@ -236,21 +259,21 @@ footer{padding:38px 0 54px;text-align:center;color:#8b939f;font-size:.92rem;line
   <span class="eyebrow">비용 통제</span>
   <h2 class="sec">유지비용은 구조로 잡습니다</h2>
   <p class="sub">도입 첫날부터 월 예산 상한을 걸고, 과제마다 순효익 게이트로 검증합니다. 효과가 운영비를 못 넘으면 제가 먼저 중단합니다.</p>
-  <div class="gchips"><div class="gchip"><strong>TCO 대시보드</strong><span>부서·용도별 월 AI 비용을 한 화면으로 봐서 감이 아니라 숫자로 관리합니다.</span></div><div class="gchip"><strong>모델 등급 라우팅</strong><span>쉬운 일은 저가 모델 기본, 어려운 판단만 고급 모델. 무조건 비싼 모델 사용을 금지합니다.</span></div><div class="gchip"><strong>캐싱·배치</strong><span>반복·동일 질의는 캐시 재사용, 급하지 않은 작업은 야간 배치로 단가를 낮춥니다.</span></div><div class="gchip"><strong>예산캡·자동 차단</strong><span>부서·용도별 월 예산 상한을 정하고 초과 시 자동 차단·알림합니다.</span></div><div class="gchip"><strong>순효익 게이트</strong><span>아낀 시간·비용이 AI 운영비보다 클 때만 유지하고, 못 넘으면 제가 먼저 중단합니다.</span></div><div class="gchip"><strong>결정론 우선 (토큰 0)</strong><span>계산·대사·청구규칙 검증·수요예측은 파이썬 규칙으로 처리해 토큰 비용을 0으로 두고, AI는 판단·해석·초안에만 씁니다.</span></div></div>
+  <div class="gchips"><div class="gchip"><strong>TCO 대시보드</strong><span>부서·용도별 월 AI 비용을 한 화면으로 봐서 감이 아니라 숫자로 관리합니다.</span></div><div class="gchip"><strong>모델 등급 라우팅</strong><span>쉬운 일은 저가 모델 기본, 어려운 판단만 고급 모델. 무조건 비싼 모델 사용을 금지합니다.</span></div><div class="gchip"><strong>캐싱·배치</strong><span>반복·동일 질의는 캐시 재사용, 급하지 않은 작업은 야간 배치로 단가를 낮춥니다.</span></div><div class="gchip"><strong>예산캡·자동 차단</strong><span>부서·용도별 월 예산 상한을 정하고 초과 시 자동 차단·알림합니다.</span></div><div class="gchip"><strong>순효익 게이트</strong><span>아낀 시간·비용이 AI 운영비보다 클 때만 유지하고, 못 넘으면 제가 먼저 중단합니다.</span></div><div class="gchip"><strong>결정론 우선(토큰 0)</strong><span>계산·대사·청구규칙 검증·수요예측은 파이썬 규칙으로 처리해 토큰 비용을 0으로 두고, AI는 판단·해석·초안에만 씁니다.</span></div></div>
 </div></section>
 
 <section><div class="wrap">
-  <span class="eyebrow">핵심 KPI (90일 목표)</span>
+  <span class="eyebrow">무엇으로 평가하나</span>
   <h2 class="sec">AI 사용량이 아니라, 비용 대비 효과로 평가</h2>
-  <div class="kpis"><div class="krow"><span class="klabel">90일 등대 순효익</span><span class="ktarget">저PII 등대 1건(회의녹취+규정검색)은 90일 내 순효익 양수. 무거운 2건(카톡주문·공단청구)은 90일 기준선+초기지표, 순효익 확정은 약 120일 재보고</span></div><div class="krow"><span class="klabel">카톡·전화 주문 자동화</span><span class="ktarget">건당 처리시간 30퍼센트 이상 절감·오류 30퍼센트 이상 감소·약 1명분 재배치</span></div><div class="krow"><span class="klabel">회의 녹취 자동정리</span><span class="ktarget">회의당 정리시간 20분 이상 절감</span></div><div class="krow"><span class="klabel">공단청구 사전점검</span><span class="ktarget">청구 반려율 기준선 대비 20퍼센트 이상 감소·부당청구 환수 0</span></div><div class="krow"><span class="klabel">사내검색 정답률</span><span class="ktarget">출처 포함 정답률 85퍼센트 이상</span></div><div class="krow"><span class="klabel">비용 규율</span><span class="ktarget">월 AI 운영비 예산 상한 이내 100퍼센트·순효익 양수 용도만 존속</span></div></div>
+  <div class="kpis"><div class="krow"><span class="klabel">우선 과제 순효익</span><span class="ktarget">저PII 과제 1건(회의녹취+규정검색)은 우선 순효익 양수. 무거운 2건(카톡주문·공단청구)은 기준선과 초기 지표부터 내고, 순효익 확정은 이어서 재보고</span></div><div class="krow"><span class="klabel">카톡·전화 주문 자동화</span><span class="ktarget">건당 처리시간 30퍼센트 이상 절감, 오류 30퍼센트 이상 감소, 약 1명분 재배치</span></div><div class="krow"><span class="klabel">회의 녹취 자동정리</span><span class="ktarget">회의당 정리시간 20분 이상 절감</span></div><div class="krow"><span class="klabel">공단청구 사전점검</span><span class="ktarget">청구 반려율 기준선 대비 20퍼센트 이상 감소, 부당청구 환수 0</span></div><div class="krow"><span class="klabel">사내검색 정답률</span><span class="ktarget">출처 포함 정답률 85퍼센트 이상</span></div><div class="krow"><span class="klabel">비용 규율</span><span class="ktarget">월 AI 운영비 예산 상한 이내 100퍼센트, 순효익 양수 용도만 존속</span></div></div>
 </div></section>
 
 <section class="decide"><div class="wrap">
   <span class="eyebrow">대표님 결정 요청</span>
-  <h2 class="sec">지금 요청드리는 것은 전면 도입이 아니라, 이 다섯 가지 결정입니다</h2>
+  <h2 class="sec">지금 요청드리는 것은 전면 도입이 아니라, 이 결정입니다</h2>
   <p class="sub">진단·시범을 시작할 최소 조건입니다.</p>
-  <div class="asks"><div class="ask"><span class="aidx">1</span><div><strong>직책</strong><p>대표님 직속 &#x27;AX 전환 총괄&#x27;(실장·임원급)로 확정. 실무자가 아니라 3개 조직을 가로지르는 총괄로 움직입니다.</p></div></div><div class="ask"><span class="aidx">2</span><div><strong>권한 3</strong><p>0~3개월 시범 예산 집행권, 부서별 겸직 AX 챔피언 지명권, 도입·중단 우선순위 결정권.</p></div></div><div class="ask"><span class="aidx">3</span><div><strong>예산 상한</strong><p>0~3개월 진단·시범 예산 월 300만원 이내(분기 약 900만원). 상한을 넘으면 자동 중단.</p></div></div><div class="ask"><span class="aidx">4</span><div><strong>초기 인력</strong><p>전담 2명(AI 아키텍트·데이터 엔지니어, 사내 재배치 우선)+부서별 겸직 AX 챔피언 3명.</p></div></div><div class="ask"><span class="aidx">5</span><div><strong>시작일</strong><p>8월 1일 착수. 30일 진단, 60일 등대 시범, 90일 성과 보고를 제가 지킵니다.</p></div></div><div class="ask"><span class="aidx">6</span><div><strong>방패 3</strong><p>킥오프에서 대표님 직접 선언, 부서장 평가에 AX 협조 반영, 90일 재보고 자리를 대표님이 직접 주재.</p></div></div></div>
-  <div class="oneline">대표님께서는 지금 전면 도입이 아니라 직책·권한·예산 상한·초기 인원·시작일·방패, 이 결정만 해주십시오. 그러면 90일 안에 비용 대비 효과가 숫자로 증명된 등대 성과 1건을 만들어, 확대 여부를 숫자만 보고 판단하시게 하겠습니다.</div>
+  <div class="asks"><div class="ask"><span class="aidx">1</span><div><strong>직책</strong><p>대표님 직속 &#x27;AX 전환 총괄&#x27;(실장·임원급)로 확정. 실무자가 아니라 3개 조직을 가로지르는 총괄로 움직입니다.</p></div></div><div class="ask"><span class="aidx">2</span><div><strong>권한</strong><p>시범 예산 집행권, 부서별 겸직 AX 챔피언 지명권, 도입·중단 우선순위 결정권을 위임해 주십시오.</p></div></div><div class="ask"><span class="aidx">3</span><div><strong>예산 상한</strong><p>진단·시범 예산을 월 300만원 이내로 승인해 주십시오. 상한을 넘으면 자동 중단합니다.</p></div></div><div class="ask"><span class="aidx">4</span><div><strong>초기 인력</strong><p>전담 2명(AI 아키텍트·데이터 엔지니어, 사내 재배치 우선)과 부서별 겸직 AX 챔피언 3명으로 시작합니다.</p></div></div><div class="ask"><span class="aidx">5</span><div><strong>방패</strong><p>킥오프에서 대표님 직접 선언, 부서장 평가에 AX 협조 반영, 재보고 자리를 대표님이 직접 주재하시는 것입니다.</p></div></div></div>
+  <div class="oneline">대표님께서는 지금 전면 도입이 아니라 직책·권한·예산 상한·초기 인원·방패, 이 결정만 해주십시오. 그러면 비용 대비 효과가 숫자로 증명된 성과 1건을 조기에 만들어, 확대 여부를 대표님께서 숫자만 보고 판단하시게 하겠습니다.</div>
 </div></section>
 
 <footer><div class="wrap">THK컴퍼니 전사 AX 전환 청사진 · 진행 중인 DX를 AX로 전환해 IPO 기업가치 제고 · 대표님(신종호) 제출용</div></footer>
